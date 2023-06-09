@@ -40,7 +40,7 @@ try:
 except URLError as e:
   streamlit.error()
 
-streamlit.title("View Our Fruit List - Add Your Favorites!:")
+streamlit.title("View Our Fruit List - Add Your Favorites!")
 #SNOWFLAKE RELATED FUNCTIONS
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
